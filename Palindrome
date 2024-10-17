@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char a[20];
+    printf("enter a word");
+    gets(a);
+    int j;
+    int len= strlen(a)-1;
+    for(int i=0;j=len;i<=j,i++,j--)
+    {
+        if(a[i]!=a[j])
+        {
+            printf("its not a palindrome");
+        return;
+        }
+    }
+    printf("palindrome");
+
+}
+
+OUTPUT:
+enter a wordAMMA
+its not a palindrome
