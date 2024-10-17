@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+    char name[10][10];
+    int a;
+    printf("enter number of names");
+    scanf("%d",&a);
+    for(int i=0;i<a;i++)
+    {
+        scanf("%s",name[i]);
+
+    }
+    printf("the names are ass follows...");
+    for(int i=0;i<a;i++)
+    {
+        printf("\n name %d is",i+1,name[i]);
+    }
+}
+
+
+OUTPUT:
+enter number of names 4
